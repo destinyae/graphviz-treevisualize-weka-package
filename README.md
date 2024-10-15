@@ -4,7 +4,7 @@ TreeVisualize plugin for the Explorer using GraphViz (http://www.graphviz.org/)
 to generate the tree.
 
 By default, the plugin expects the `dot` executable to be available on the
-system path. If that should not be the case, you can specify the correct
+system path. If that is not the case, you can specify the correct
 location in the `GraphVizTreeVisualization.props` properties file.
 
 Simply create the following file:
@@ -28,7 +28,7 @@ And add the following content (adjust path, of course):
 
 * Windows
   ```
-  Executable=C:/Progam Files/some/where/dot.exe
+  Executable=C:/Program Files/some/where/dot.exe
   ```
 
 Additional options for the executable can be specified with the
@@ -123,6 +123,6 @@ Allows you to save the graph as PNG image:
 
 ### Export graph
 
-Here you can export the graph as PDF, Postscript or encapsulated Postscript:
+Here you can export the graph as PDF, Postscript, or encapsulated Postscript:
 
 ![export graph](src/site/resources/export_graph.png)
